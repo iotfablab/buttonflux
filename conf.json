@@ -1,0 +1,8 @@
+{
+    "button": {
+        "device": "/dev/input/event0",
+        "dbConf": {
+            "udp_port": 8096
+        }
+    }
+}
