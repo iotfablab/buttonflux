@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+from buttonflux import buttonflux
+
+if __name__ == "__main__":
+    buttonflux.main()
