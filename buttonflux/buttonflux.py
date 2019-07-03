@@ -58,7 +58,8 @@ def send_data(device, db_host, db_port, udp_port):
                         {
                             'measurement': 'button',
                             'fields': {
-                                'pressed': event.value
+                                'pressed': event.value,
+                                'status': 0
                             }
                         }
                     ] 
