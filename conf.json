@@ -1,8 +1,18 @@
 {
+    "deviceID": "UMG/0001",
+    "influx": {
+        "host": "localhost",
+        "port": 8086
+    },
+    "mqtt": {
+        "broker": "localhost",
+        "port": 1883
+    },
     "button": {
-        "device": "/dev/input/event0",
-        "dbConf": {
-            "udp_port": 8096
-        }
+        "hw_device": "/dev/input/event0",
+        "udp_port": 8096,
+        "topics": [
+            "eventlog/button/pressed"
+        ]
     }
 }
